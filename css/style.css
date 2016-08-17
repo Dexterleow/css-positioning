@@ -3,9 +3,113 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background-image: url('../img/bgtile.png');
+  background-repeat: repeat-x;
+}
+
+.container{
+  max-width: 68%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+.left{
+float:left;
+}
+
+.right{
+  float:right;
+}
+
+.phone-images{
+bottom:10px;
+border-right: 3%;
+}
+
+.right-box{
+color: black;
+width: 600px;
+bottom:10px;
+}
+
+.right-box-first-row {
+  width:504px;
+  display:inline-block;
+}
+
+.right-box-second-row {
+font-size:18px;
+width:504px;
+padding: 20px;
+background-image: url('../img/frame.png');
+background-repeat:no-repeat;
+}
+
+.introduction {
+  font-size:26px;
+  font-weight:bold;
+  color:#184469;
+  width:420px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.content{
+  width:420px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.Log-in-box{
+float:right;
+}
+
+.instagram-logo{
+float:left;
+}
+
+.button {
+  background: #4ca8e6;
+  background-image: -webkit-linear-gradient(top, #4ca8e6, #4b758f);
+  background-image: -moz-linear-gradient(top, #4ca8e6, #4b758f);
+  background-image: -ms-linear-gradient(top, #4ca8e6, #4b758f);
+  background-image: -o-linear-gradient(top, #4ca8e6, #4b758f);
+  background-image: linear-gradient(to bottom, #4ca8e6, #4b758f);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right:10px;
+}
+
+.downloads-logo {
+padding:100px;
+margin-right: 20px;
+}
+
+.bottom-links {
+max-width:80%;
+position:absolute;
+display: inline;
+color:#000000;
+clear:both;
+padding-top:20px;
+bottom:120px;
+margin-right: 80px;
+}
+
+a {
+  text-decoration: none;
+  color:#184469;
+  margin-right:10px;
 }
